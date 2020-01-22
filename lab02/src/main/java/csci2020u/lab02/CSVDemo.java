@@ -1,4 +1,4 @@
-package main.java.csci2020u.lab02;
+package lab02;
 
 import java.io.*;
 import org.apache.commons.csv.*;

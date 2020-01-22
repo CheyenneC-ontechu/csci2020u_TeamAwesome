@@ -12,5 +12,5 @@ application {
     mavenCentral()
  }
  dependencies {
-   compile group: 'commons-validator', name: 'commons-validator', version: '1.4.1'
+   implementation 'org.apache.commons:commons-csv:1.7'
  }
