@@ -1,1 +1,12 @@
-apply plugin: 'java'
+plugins {
+    id "application"
+}
+​apply plugin: 'java'
+mainClassName = "CSVDemo.Demo"
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation("org.apache.commons:commons-csv:1.7")
+}
+ 
